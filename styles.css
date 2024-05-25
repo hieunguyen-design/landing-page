@@ -1,0 +1,165 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    font-family: "Roboto";
+    display: flex;
+    flex-direction: column;
+    flex:1;
+    min-width: 1000px;
+}
+.header{
+    display: flex;
+    justify-content: space-between;
+    background-color: #1F2937;
+    padding:20px 50px;
+    align-items: center;   
+     
+}
+.logo{
+    font-size: 24px;
+    color: #f9faf8;
+    font-weight: 900;
+}
+a{
+    text-decoration: none;
+    color:#e5e7eb;
+
+}
+.right-panel{
+    display: flex;
+    gap: 20px;
+}
+
+.banner{
+    background-color: #1F2937;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 50px 100px;
+    gap:50px;
+    padding: 100px;
+}
+.introduction{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.main-text{
+    color:#f9faf8;
+    font-size: 48px;
+    font-weight: bolder;
+}
+.subtext-1{
+    color: #e5e7eb;
+    font-size: 18px;
+    font-weight: 300;
+}
+.introduction button{
+    background-color: #3882f6;
+    color: #f9faf8;
+    width: fit-content;
+    height: 30px;
+    padding: 5px 20px;
+    border-radius: 7px;
+    border: none;
+    margin-top: 20px; 
+}
+.information{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 50px;
+}
+.title-2{
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1F2937;
+}
+.group-panel{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 52px;
+    gap: 50px;
+}
+.single-panel{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap:10px;
+}
+.single-panel img{
+    border: 5px solid ;
+    border-radius: 20px;
+    border-color: #3882f6;
+}
+.single-panel p{
+    text-align: center;
+    width: 150px;
+}
+.quote{
+    background-color: #e5e7eb;
+    padding:100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.inner{
+    max-width: 1000px;
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+}
+.quote-text{
+    font-size: 36px;
+    font-style: italic;
+    font-weight: 100 ;
+    
+}
+.credit{
+    font-weight: 500;
+}
+.sign-up {
+    display: flex;
+    justify-content: center;
+    /* max-width: 1000px; */
+}
+.sign-up button{
+    background-color: #3882f6;
+    color: #f9faf8;
+    width: fit-content;
+    height: 30px;
+    padding: 5px 20px;
+    border-radius: 7px;
+    border: none;
+    border: 2px solid #f9faf8;
+}
+.inner2{
+    display: flex;
+    margin: 150px 50px ;
+    background-color: #3882f6;
+    padding: 50px 100px;
+    border-radius: 20px;
+    color: #f9faf8;
+    justify-content: space-between;
+    align-items: center; 
+    width: 1000px;
+}
+.call-to-act{
+    font-size: 18px;
+    font-weight: 800;
+}
+.subtext-3{
+    font-weight: 300;
+}
+.footer{
+    background-color: #1F2937;
+    display: flex;
+    padding: 20px;
+    color:#f9faf8;
+    justify-content: center;
+    align-items: center;
+}
